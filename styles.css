@@ -1,0 +1,54 @@
+body {
+  font-family: 'Single Day', cursive;
+  background-image: url(img.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: rgb(9, 13, 49);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1{
+  font-size: 300%;
+}
+
+.calculator-container {
+  position: absolute;
+  font-size: 150%;
+  text-align: center;
+  background-color: rgb(149, 175, 172);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 100px rgba(255, 255, 255, 0.338);
+}
+
+button {
+  font-size: 70%;
+  font-family: 'Single Day', cursive;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: rgb(83, 109, 137);
+  color: rgb(9, 13, 49);
+  border: 0 1vh solid rgb(9, 13, 49);
+  cursor: pointer;
+  border-radius: 40px;
+}
+
+button:hover {
+  background-color:rgb(107, 135, 165);
+}
+
+#result {
+  margin-top: 20px;
+  font-weight: bold;
+}
+#subjectsContainer{
+  padding: 20px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}

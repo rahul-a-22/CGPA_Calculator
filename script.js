@@ -57,5 +57,5 @@ function calculateGradePoints(marks) {
   if (marks >= 20) return 3;
   if (marks >= 10) return 2;
   if (marks >= 0) return 1;
-  return 0.0;
+  return 0;
 }
